@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Loop</title>
+</head>
+
+<body>
+    <h1>Nested Loop</h1>
+    <p>First Work Outer Loop Then Work Inner Loop</p>
+
+    <script>
+
+        for (var x = 1; x <= 100; x += 10) {
+            for (var y = x; y < x + 10; y++) {
+                document.write(y + " ")
+            }
+            document.write("<br>")
+        }
+        document.write("<br>");
+
+
+        for (var x = 1; x <= 5; x++) {
+            for (y = 1; y <= x; y++) {
+                document.write(y + " ");
+            }
+            document.write("<br>");
+        }
+        document.write("<br>");
+
+
+        for (var x = 5; x >= 1; x--) {
+            for (y = 1; y <= x; y++) {
+                document.write(y + " ");
+            }
+            document.write("<br>");
+        }
+        document.write("<br>");
+
+
+        for (var x = 1; x <= 5; x++) {
+            for (y = 1; y <= x; y++) {
+                document.write(x + " ");
+            }
+            document.write("<br>");
+        }
+        document.write("<br>");
+
+
+        for (var x = 5; x >= 1; x--) {
+            for (y = 1; y <= x; y++) {
+                document.write(x + " ");
+            }
+            document.write("<br>");
+        }
+        document.write("<br>");
+    </script>
+
+
+</body>
+
+</html>
