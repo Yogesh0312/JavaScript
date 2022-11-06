@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+
+<body>
+
+    <h1>String Methods</h1>
+
+    <script>
+
+        var x = "Let's Create Something That Changes Everything";
+
+        var y = x.length;
+        document.write(y + "<br><br>");
+
+
+        var y = x.toLowerCase();
+        document.write(y + "<br><br>");
+
+
+        var y = x.toUpperCase();
+        document.write(y + "<br><br>");
+
+
+        var y = x.includes("Create");
+        document.write(y + "<br><br>");
+
+
+        var y = x.startsWith("Let's");
+        document.write(y + "<br><br>");
+
+
+        var y = x.endsWith("Everything");
+        document.write(y + "<br><br>");
+
+
+        var y = x.search("Create");
+        document.write(y + "<br><br>");
+
+
+        var y = x.match(/Changes/g);
+        document.write(y + "<br><br>");
+
+
+        var y = x.indexOf("That");
+        document.write(y + "<br><br>");
+
+
+        var y = x.lastIndexOf("Create");
+        document.write(y + "<br><br>");
+
+
+        var y = x.replace("Let's", "A");
+        document.write(y + "<br><br>");
+
+
+        var y = x.replace(/Let's/g, "A");
+        document.write(y + "<br><br>");
+
+
+        var z = "    Yogesh    "
+        var y = z.trim();
+        // alert(y);
+        document.write(y + "<br><br>");
+
+
+        var y = x.charAt(9);
+        document.write(y + "<br><br>");
+
+
+        var y = x.charCodeAt(9);
+        document.write(y + "<br><br>");
+
+
+        var y = String.fromCharCode(97);
+        document.write(y + "<br><br>");
+
+
+        var w = " Hello"
+        var v = " Hey"
+        var y = x.concat(w, v);
+        document.write(y + "<br><br>");
+
+
+        var y = x.split(" ");
+        // console.log(y);
+        document.write(y + "<br><br>");
+
+
+        var y = x.repeat(3);
+        document.write(y + "<br><br>");
+
+
+        var y = x.slice(0, 5);
+        // var y = x.slice(5)
+        document.write(y + "<br><br>");
+
+
+        var y = x.substr(5);
+        document.write(y + "<br><br>");
+
+
+        var y = x.substring(0, 5);
+        document.write(y + "<br><br>");
+
+
+        var t = 21;
+        var y = t.toString();
+        // console.log(y);
+        document.write(y + "<br><br>");
+
+
+        var y = x.valueOf();
+        document.write(y + "<br><br>");
+
+
+    </script>
+</body>
+
+</html>

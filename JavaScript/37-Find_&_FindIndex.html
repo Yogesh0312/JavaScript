@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Find And FindIndex</title>
+</head>
+
+<body>
+
+    <h1>Array Find And FindIndex</h1>
+
+    <script>
+
+        var x = [10, 15, 130, 2];
+
+        document.write(x + "<br><br>");
+
+        var y = x.find(Check);
+        // var y = x.findIndex(Check);
+
+        document.write(y + "<br><br>");
+
+        function Check(age) {
+            return age >= 18;
+        }
+    </script>
+</body>
+
+</html>

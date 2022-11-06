@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Methods</title>
+</head>
+
+<body>
+
+    <h1>Number Methods</h1>
+
+    <script>
+
+        var x = "100.00";
+
+        var y = Number(x);
+        document.write(y + "<br><br>");
+        // alert(typeof(y));
+
+
+        var y = parseInt(x);
+        document.write(y + "<br><br>");
+
+
+        var z = "100.600";
+        // var z = "100.68658"
+        var y = parseFloat(z);
+        document.write(y + "<br><br>");
+
+
+
+        var y = Number.isFinite(x);
+        document.write(y + "<br><br>");
+
+
+        var y = Number.isInteger(x);
+        document.write(y + "<br><br>");
+
+
+        var v = 10.756846;
+        var y = v.toFixed(2);
+        document.write(y + "<br><br>");
+
+
+
+        var y = v.toPrecision(2);
+        document.write(y + "<br><br>");
+
+
+
+    </script>
+</body>
+
+</html>
